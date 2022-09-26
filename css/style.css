@@ -1,0 +1,110 @@
+/*
+------------------------------------------------------------------------
+--------------------- Reset Default Styles ----------------------------
+------------------------------------------------------------------------
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+}
+/*
+------------------------------------------------------------------------
+------------------------- Reusable CSS-------------------------------
+------------------------------------------------------------------------
+*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+}
+.sm-container{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+}
+.row{
+    display: flex;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+/*
+------------------------------------------------------------------------
+----------------------- Header Section Style -------------------------
+------------------------------------------------------------------------
+*/
+#header-section{
+    width: 100%;
+}
+#header-section .row{
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 15%;
+}
+.logo img{
+    width: 10rem;
+    padding: 1rem 0;
+    object-fit: contain;
+}
+.menu{
+    width: 74%;
+    margin-right: 1%;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul li{
+    margin-left: 4.4rem;
+}
+.menu ul li a{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #25201D;
+}
+.menu ul li a.active{
+    color: #FA5E01;
+}
+.login{
+    width: 10%;
+    /* height: 10rem;
+    text-align: center;
+    background-image: url("../images/header/login-rectangle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top; */
+    
+}
+
+/*
+------------------------------------------------------------------------
+----------------------- Banner Section Style -------------------------
+------------------------------------------------------------------------
+*/
+#banner{
+    width: 100%;
+}
