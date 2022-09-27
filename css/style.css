@@ -478,6 +478,7 @@ ul{
     width: 98%;
     height: 50rem;
     margin-top: -15rem;
+    object-fit: cover;
 }
 .testimonial-text{
     width: 52%;
@@ -539,4 +540,12 @@ ul{
     line-height: 30px;
     color: #FA5E01;
     margin-left: 10rem;
+}
+/*
+------------------------------------------------------------------------
+--------------------- Testimonial  Section Style ----------------------
+------------------------------------------------------------------------
+*/
+#teachers{
+    width: 100%;
 }
