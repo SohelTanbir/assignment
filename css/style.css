@@ -151,7 +151,6 @@ ul{
 */
 #banner{
     width: 100%;
-    min-height: 100vh;
     padding: 8rem 0 2.4rem;
     /* background: linear-gradient(0deg, rgba(52, 42, 37, 0.7), rgba(52, 42, 37, 0.7)), url("../images/banner/banner-bg.png"); */
     background:url("../images/banner/banner-bg.png") no-repeat;
@@ -278,6 +277,9 @@ ul{
 #services{
     width: 100%;
 }
+#services .lg-container{
+    padding-right: 0;
+}
 #services .row{
     justify-content: space-between;
 }
@@ -304,4 +306,57 @@ ul{
 }
 .single-service:nth-child(even) p{
    color: #FFFFFF;
+}
+/*
+------------------------------------------------------------------------
+----------------------- About Section Style -------------------------
+------------------------------------------------------------------------
+*/
+#about{
+    width: 100%;
+    padding: 20rem 0;
+}
+.about-text-info{
+    width: 50%;
+}
+.about-text-info h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 8.2rem;
+    color: #25201D;
+    margin-bottom: 7rem;
+}
+.about-text-info p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 3.4rem;
+    color: #000000;
+    margin-bottom: 6.4rem;
+}
+.about-text-info .learn-more-btn{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 4.8rem;
+    color: #FA5E01;
+    padding: 1rem 5rem;
+    background: #FFFFFF;
+    border: .2rem solid #FA5E01;
+}
+.about-text-info .learn-more-btn:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+    background: #FA5E01;
+    border: .2rem solid transparent;
+}
+.about-photo{
+    width: 50%;
+}
+.about-photo img{
+    width: 100%;
 }
