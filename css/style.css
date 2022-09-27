@@ -458,3 +458,85 @@ ul{
     border: .2rem solid #FFFFFF;
     box-shadow: 0 .4rem 1.5rem rgba(0, 0, 0, 0.15);
 }
+
+/*
+------------------------------------------------------------------------
+--------------------- Testimonial  Section Style ----------------------
+------------------------------------------------------------------------
+*/
+#testimonial{
+    width: 100%;
+    margin: 20rem auto;
+    padding: 5rem  0;
+    background: #FFF9F5;
+}
+
+.testimonial-photo{
+    width: 45%;
+}
+.testimonial-photo img{
+    width: 98%;
+    height: 50rem;
+    margin-top: -15rem;
+}
+.testimonial-text{
+    width: 52%;
+    margin-left: 3%;
+}
+.testimonial-text h4{
+    position: relative;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 6.8rem;
+    color: #25201D;
+    padding-top: .5rem;
+}
+.testimonial-text h4::before{
+    position: absolute;
+    content: "";
+    top:0;
+    left: 0;
+    width: 15rem;
+    height: .5rem;
+    background: #FA5E01;
+}
+.testimonial-text p{
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 3.6rem;
+    color: #25201D;
+    padding: 4rem 0 2.5rem;
+}
+.testimonial-text h5{
+    position: relative;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.4rem;
+    line-height: 4.6rem;
+    color: #25201D;
+    margin-left: 10rem;
+    text-transform: capitalize;
+}
+.testimonial-text h5::before{
+    position: absolute;
+    content: "";
+    top:60%;
+    left: -9.5rem;
+    width: 7rem;
+    height: .1rem;
+    background: #25201D;
+}
+.testimonial-text span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FA5E01;
+    margin-left: 10rem;
+}
