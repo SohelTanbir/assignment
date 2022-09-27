@@ -313,6 +313,7 @@ ul{
 ------------------------------------------------------------------------
 */
 #about{
+    position: relative;
     width: 100%;
     padding: 20rem 0;
 }
@@ -320,14 +321,27 @@ ul{
     width: 50%;
 }
 .about-text-info h2{
+    position: relative;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 6rem;
     line-height: 8.2rem;
     color: #25201D;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    text-transform: capitalize;
 }
+.about-text-info h2::before{
+    position: absolute;
+    content: "";
+    top:0;
+    left: 0;
+    width: 15rem;
+    height: .5rem;
+    background: #FA5E01;
+}
+
 .about-text-info p{
     font-family: 'Open Sans';
     font-style: normal;
@@ -335,7 +349,8 @@ ul{
     font-size: 2.2rem;
     line-height: 3.4rem;
     color: #000000;
-    margin-bottom: 6.4rem;
+    margin-bottom: 5.4rem;
+    padding-right: 4rem;
 }
 .about-text-info .learn-more-btn{
     font-family: 'Open Sans';
@@ -347,6 +362,7 @@ ul{
     padding: 1rem 5rem;
     background: #FFFFFF;
     border: .2rem solid #FA5E01;
+    text-transform: capitalize;
 }
 .about-text-info .learn-more-btn:hover{
     color: #FFFFFF;
@@ -355,8 +371,90 @@ ul{
     border: .2rem solid transparent;
 }
 .about-photo{
+    position: relative;
     width: 50%;
 }
 .about-photo img{
+    position: relative;
     width: 100%;
+}
+.about-counter{
+    position: absolute;
+    width: 75rem;
+    top: 70%;
+    left: -30%;
+    padding: 4rem 10rem;
+    background: #FFF9F5;
+}
+.about-counter .row{
+    justify-content: space-between;
+}
+.single-count h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 8.2rem;
+    color: #25201D;
+}
+.single-count p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #25201D;
+    text-align: center;
+}
+
+/*
+------------------------------------------------------------------------
+----------------------- Apply  Section Style -------------------------
+------------------------------------------------------------------------
+*/
+#apply-fall{
+    max-width: 90rem;
+    width: 100%;
+    margin:0 auto;
+    padding: 3.5rem ;
+    background: #FA5E01;
+}
+.apply-info{
+    width: 100%;
+}
+.apply-info h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5.4rem;
+    color: #FFFFFF;
+}
+.apply-info p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+    padding: 1.5rem 0 4rem;
+}
+.apply-info button{
+    width: 19.5rem;
+    height: 5.5rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 4.8rem;
+    color: #FA5E01;
+    background: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0 .4rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+.apply-info button:hover{
+    color:  #FFFFFF;
+    background: #FA5E01;
+    border: .2rem solid #FFFFFF;
+    box-shadow: 0 .4rem 1.5rem rgba(0, 0, 0, 0.15);
 }
