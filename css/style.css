@@ -41,6 +41,7 @@ img{
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 a,a:hover{
     text-decoration: none;
@@ -58,7 +59,11 @@ ul{
 ------------------------------------------------------------------------
 */
 #header-section{
+    position: relative;
     width: 100%;
+    min-height: 8rem;
+    display: flex;
+    align-items: center;
 }
 #header-section .row{
     align-items: center;
@@ -96,7 +101,7 @@ ul{
 }
 .menu ul li:hover::after{
     width: 100%;
-    transition: .3s ease-in;
+    transition: .2s ease-in;
 }
 .menu ul li a{
     font-family: 'Open Sans';
@@ -110,13 +115,33 @@ ul{
 }
 .login{
     width: 10%;
-    /* height: 10rem;
+}
+.login-content{
+    position: absolute;
+    top: 0;
+    left: 85%;
+    width: 20rem;
+    height: 12rem;
     text-align: center;
     background-image: url("../images/header/login-rectangle.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center top; */
-    
+    background-position: center top;
+    cursor: pointer;
+}
+.login-content img{
+    width: 3rem;
+    object-fit: cover;
+    padding-top: 1rem;
+}
+.login-content span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 3.8rem;
+    color: #FFFFFF;
+    padding: 0 1rem;
 }
 
 /*
@@ -136,7 +161,10 @@ ul{
 .banner-left{
     width: 50%;
 }
-.banner-left h6, h1, p, .apply-btn{
+.banner-left h6,
+.banner-left h1,
+.banner-left p,
+.banner-left .apply-btn{
     font-family: 'Open Sans';
     color: #FFFFFF;
 }
@@ -198,7 +226,9 @@ ul{
     background: #FA5E01;
     cursor: pointer;
 }
-.text-content h5, h2, p{
+.text-content h5,
+.text-content h2, 
+.text-content p{
     font-family: 'Open Sans';
     font-style: normal;
     color: #FFFFFF;
@@ -238,4 +268,40 @@ ul{
 }
 .slider-indecator ul li.active{
     background: #FA5E01;;
+}
+
+/*
+------------------------------------------------------------------------
+----------------------- Service Section Style -------------------------
+------------------------------------------------------------------------
+*/
+#services{
+    width: 100%;
+}
+#services .row{
+    justify-content: space-between;
+}
+.single-service{
+    width: 25%;
+    padding-top: 5rem;
+    padding-left: 3rem;
+}
+.single-service:nth-child(even){
+    background: #FA5E01;
+}
+.single-service img{
+    width: 5rem;
+    padding-bottom: 5rem;
+}
+.single-service p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 36px;
+    color: #25201D;
+    padding-right: 2rem;
+}
+.single-service:nth-child(even) p{
+   color: #FFFFFF;
 }
