@@ -127,7 +127,7 @@ ul{
 #banner{
     width: 100%;
     min-height: 100vh;
-    padding: 8rem 0;
+    padding: 8rem 0 2.4rem;
     /* background: linear-gradient(0deg, rgba(52, 42, 37, 0.7), rgba(52, 42, 37, 0.7)), url("../images/banner/banner-bg.png"); */
     background:url("../images/banner/banner-bg.png") no-repeat;
     background-size: cover;
@@ -220,4 +220,22 @@ ul{
     font-size: 1.4rem;
     line-height: 1.9rem;
     text-transform: uppercase;
+}
+.slider-indecator{
+    width: 100%;
+    padding-top: 6.6rem;
+    text-align: center;
+}
+.slider-indecator ul{
+    display: flex;
+    justify-content: center;
+}
+.slider-indecator ul li{
+    width: 3rem;
+    height: .3rem;
+    margin: 0 1.2rem;
+    background:#FFFFFF;
+}
+.slider-indecator ul li.active{
+    background: #FA5E01;;
 }
