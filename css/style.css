@@ -48,6 +48,10 @@ a,a:hover{
 ul{
     list-style-type: none;
 }
+.btn{
+    border: none;
+    outline: none;
+}
 /*
 ------------------------------------------------------------------------
 ----------------------- Header Section Style -------------------------
@@ -122,4 +126,62 @@ ul{
 */
 #banner{
     width: 100%;
+    min-height: 100vh;
+    padding: 8rem 0;
+    /* background: linear-gradient(0deg, rgba(52, 42, 37, 0.7), rgba(52, 42, 37, 0.7)), url("../images/banner/banner-bg.png"); */
+    background:url("../images/banner/banner-bg.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-left{
+    width: 50%;
+}
+.banner-left h6, h1, p, .apply-btn{
+    font-family: 'Open Sans';
+    color: #FFFFFF;
+}
+.banner-left h6{
+    position: relative;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    text-transform: uppercase;
+    padding-bottom: 12rem;
+}
+.banner-left h6::before{
+    position: absolute;
+    content: "";
+    top: -.8rem;
+    left: 0;
+    width: 3.4rem;
+    height: .2rem;
+    background: #FFFFFF;
+
+}
+.banner-left h1{
+    font-weight: 700;
+    font-size: 8rem;
+    line-height: 9rem;
+    padding-bottom: 3rem;
+}
+.banner-left p{
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 4rem;
+    padding-right: 2rem;
+    padding-bottom: 5.4rem;
+}
+.banner-left .apply-btn{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 4.8rem;
+    padding:1.1rem 5.5rem ;
+    cursor: pointer;
+    background: #FA5E01;
+    border: .2rem solid transparent;
+}
+.banner-left .apply-btn:hover{
+    color: #FA5E01;
+    background: #FFFFFF;
+    border: .2rem solid #FA5E01;
 }
