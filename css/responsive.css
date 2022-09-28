@@ -96,6 +96,14 @@
         top: 80%;
         left: 1.3rem;
     }
+    /*teachers*/
+    .teacher-heading .title h3 {
+        font-size: 5rem;
+    }
+    .teacher-slider-indecator .left-arrow, .teacher-slider-indecator .right-arrow {
+        width: 7.2rem;
+        height: 7.2rem;
+    }
 }
 /*medium Device*/
 @media all and (max-width:768px){
@@ -113,6 +121,50 @@
         .about-text-info h2 {
             font-size: 5rem;
             margin-bottom: 1rem;
+        }
+        /*testimonial*/
+        .testimonial-photo {
+            width: 100%;
+        }
+        .testimonial-photo img {
+            width: 100%;
+            height: auto;
+            margin-top: -15rem;
+            margin-bottom: 3rem;
+        }
+        .testimonial-text h4 {
+            font-size: 3.5rem;
+            line-height: 4.8rem;
+        }
+        .testimonial-text p {
+            padding: 1rem 0 1.5rem;
+        }
+        .testimonial-text {
+            width: 100%;
+            margin-left: 0;
+        }
+        /*teachers*/
+        .single-teacher {
+            width: 48%;
+            margin-right: 0;
+        }
+        .teacher-heading .title h3 {
+            font-size: 4rem;
+        }
+        .teacher-slider-indecator .left-arrow, .teacher-slider-indecator .right-arrow {
+            width: 5.2rem;
+            height: 5.2rem;
+        }
+        .single-teacher h4 {
+            font-size: 3rem;
+            padding: .5rem 0;
+        }
+        .teacher-heading {
+            margin-bottom: 2rem;
+        }
+        #teachers .see-more-btn {
+            margin-top: 2rem;
+            padding: 3.5rem 2rem;
         }
 }
 /*small Device*/
@@ -158,6 +210,42 @@
     .apply-info button {
         font-size: 2rem;
     }
+    /*testimonial*/
+    .testimonial-text h4 {
+        font-size: 3rem;
+        line-height: 3.8rem;
+    }
+    .testimonial-text p {
+        font-size: 2.2rem;
+    }
+    .testimonial-text h5 {
+        font-size: 3rem;
+        line-height: 3.6rem;
+    }
+    .testimonial-text span {
+        font-size: 1.8rem;
+    }
+    /*teachers*/
+    .single-teacher {
+        width: 100%;
+    }
+    .overlay .social {
+        justify-content: center;
+    }
+    .teacher-heading .title h3 {
+        font-size: 3rem;
+        line-height: 5.2rem;
+    }
+    .teacher-heading .title {
+        width: 60%;
+    }
+    .single-teacher h4 {
+        font-size: 2.2rem;
+        padding: 0;
+    }
+    #teachers .see-more-btn {
+        font-size: 3rem;
+    }
 }
 /*Extra small Device*/
 @media all and (max-width:400px){
@@ -184,6 +272,30 @@
     /*applay*/
     .apply-info h4 {
         font-size: 2.5rem;
+    }
+    /*testimonial*/
+    .testimonial-text h4 {
+        font-size: 2.5rem;
+    }
+    .testimonial-text h5 {
+        font-size: 2.2rem;
+    }
+    .testimonial-text span {
+        font-size: 1.6rem;
+    }
+    /*teachers*/
+    .teacher-heading .title h3 {
+        font-size: 2.5rem;
+        line-height: 4.2rem;
+    }
+    .teacher-slider-indecator .left-arrow, .teacher-slider-indecator .right-arrow {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    #teachers .see-more-btn {
+        font-size: 2.2rem;
+        margin-top: 2rem;
+        padding: 2.5rem 1rem;
     }
 }
 
