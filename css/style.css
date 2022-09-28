@@ -680,3 +680,93 @@ ul{
     text-transform: uppercase;
     padding: 4.5rem 2rem;
 }
+
+#footer-section{
+    width: 100%;
+    margin-top: 20rem;
+    padding: 7rem 2rem;
+    background: #FA5E01;
+}
+#footer-section .row{
+    justify-content: space-between;
+}
+.single-footer{
+    margin-left: 1%;
+}
+#footer-section .left {
+    width: 35%;
+}
+#footer-section .left p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #FFFFFF;
+}
+#footer-section .left .info{
+    display: flex;
+    margin: 4rem 0 1rem;
+}
+#footer-section .left .info img{
+    width:2rem;
+    height: 2.1rem;
+    margin-top:.6rem;
+    margin-right: 1.6rem;
+}
+#footer-section .left .info p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    color: #FFFFFF;
+}
+#footer-section .middle{
+    width: 31%;
+    display: flex;
+    justify-content: center;
+}
+#footer-section .middle ul li{
+    margin-bottom: 2.4rem;
+}
+#footer-section .middle ul li a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    color: #FFFFFF;
+
+}
+.follow-us{
+    width: 31%;
+}
+.follow-us h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 2.8rem;
+    color: #FFFFFF;
+    margin-bottom: 2.4rem;
+}
+.follow-us ul{
+    display: flex;
+    align-items: center;
+}
+.follow-us ul li{
+    margin-right: 2.4rem;
+}
+.follow-us ul li a img{
+   width: 4.8rem;
+   margin-bottom: 4.8rem;
+}
+.follow-us .copywright{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    color: #FFFFFF;
+}
