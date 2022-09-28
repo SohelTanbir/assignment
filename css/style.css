@@ -310,6 +310,7 @@ ul{
     width: 25%;
     padding-top: 5rem;
     padding-left: 3rem;
+    margin-bottom: 3rem;
 }
 .single-service:nth-child(even){
     background: #FA5E01;
