@@ -37,7 +37,9 @@
     .bars-icon{
         display:block
     }
-
+    .logo {
+        width: 25%;
+    }
     /*Banner*/
     .banner-right {
         margin-left: 10rem;
@@ -104,6 +106,12 @@
         width: 7.2rem;
         height: 7.2rem;
     }
+    /*Footer */
+    #footer-section .left .info p {
+        font-size: 2rem;
+    }#footer-section .middle ul li a {
+        font-size: 2rem;
+    }
 }
 /*medium Device*/
 @media all and (max-width:768px){
@@ -165,6 +173,20 @@
         #teachers .see-more-btn {
             margin-top: 2rem;
             padding: 3.5rem 2rem;
+        }
+        /*footer*/
+           /*footer*/
+     #footer-section {
+        margin-top: 10rem;
+    }
+        #footer-section .middle {
+            width: 46%;
+        }
+        #footer-section .left {
+            width: 48%;
+        }
+        .follow-us {
+            width: 48%;
         }
 }
 /*small Device*/
@@ -246,6 +268,30 @@
     #teachers .see-more-btn {
         font-size: 3rem;
     }
+     /*footer*/
+     #footer-section {
+        margin-top: 7rem;
+    }
+     #footer-section .middle {
+        width: 100%;
+    }
+    #footer-section .left {
+        width: 100%;
+    }
+    .follow-us {
+        width: 100%;
+        text-align: center;
+    }
+    .follow-us ul {
+        justify-content: center;
+    }
+    #footer-section .left .info p {
+        font-size: 1.8rem;
+    }
+    #footer-section .middle ul li a {
+        font-size: 1.8rem;
+    }
+    
 }
 /*Extra small Device*/
 @media all and (max-width:400px){
@@ -296,6 +342,10 @@
         font-size: 2.2rem;
         margin-top: 2rem;
         padding: 2.5rem 1rem;
+    }
+    /*footer*/
+    #footer-section {
+        margin-top: 5rem;
     }
 }
 

@@ -706,11 +706,15 @@ ul{
     text-transform: uppercase;
     padding: 4.5rem 2rem;
 }
-
+/*
+------------------------------------------------------------------------
+--------------------- Footer  Section Style ------------------------
+------------------------------------------------------------------------
+*/
 #footer-section{
     width: 100%;
     margin-top: 20rem;
-    padding: 7rem 2rem;
+    padding: 7rem 2rem 0;
     background: #FA5E01;
 }
 #footer-section .row{
@@ -718,6 +722,7 @@ ul{
 }
 .single-footer{
     margin-left: 1%;
+    margin-bottom: 4rem;
 }
 #footer-section .left {
     width: 35%;
