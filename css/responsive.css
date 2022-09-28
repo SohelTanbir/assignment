@@ -14,8 +14,22 @@
 /*Large Device*/
 @media all and (max-width:991px){
     /*header*/
-    .menu ul{
+    .menu ul {
         display: none;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: #e2e2e3;
+        top: 100%;
+        left: 0;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        z-index: 9999;
+        padding: 2rem 0;
+    }
+    .menu ul li {
+        margin-bottom: 2rem;
     }
     .login {
         display: none;
