@@ -339,7 +339,7 @@ ul{
 #about{
     position: relative;
     width: 100%;
-    padding: 20rem 0;
+    padding: 15rem 0;
 }
 .about-text-info{
     width: 50%;
@@ -394,22 +394,23 @@ ul{
     background: #FA5E01;
     border: .2rem solid transparent;
 }
-.about-photo{
+.about-photo {
     position: relative;
     width: 50%;
+    height: 35rem;
 }
 .about-photo img{
     position: relative;
     width: 100%;
+    height: 100%;
 }
 .about-counter{
     position: absolute;
-    width: 75rem;
-    top: 70%;
-    left: -30%;
-    padding: 4rem 10rem;
+    width: 100%;
+    top: 75%;
+    left: -15%;
+    padding: 3.5rem 5rem;
     background: #FFF9F5;
-    display: none;
 }
 .about-counter .row{
     justify-content: space-between;
@@ -418,15 +419,15 @@ ul{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 6rem;
-    line-height: 8.2rem;
+    font-size: 3rem;
+    line-height: 4.2rem;
     color: #25201D;
 }
 .single-count p{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 2.5rem;
     color: #25201D;
     text-align: center;
