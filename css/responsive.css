@@ -1,0 +1,53 @@
+/*
+------------------------------------------------------------------------
+---------------------- Responsive StyleSheet------------------------
+------------------------------------------------------------------------
+*/
+/*Extra Large Device*/
+@media all and (max-width:1100px){
+        /*Header*/
+        .menu ul li {
+            margin-left: 3.4rem;
+        }
+}
+
+/*Large Device*/
+@media all and (max-width:991px){
+    /*header*/
+    .menu ul{
+        display: none;
+    }
+    .login {
+        display: none;
+    }
+    .bars-icon{
+        display:block
+    }
+}
+/*medium  Device*/
+@media all and (max-width:870px){
+    /*header*/
+    .menu ul li {
+        margin-left: 2rem;
+    }
+}
+/*medium Device*/
+@media all and (max-width:768px){
+
+}
+/*small Device*/
+@media all and (max-width:576px){
+
+}
+/*Extra small Device*/
+@media all and (max-width:380px){
+
+}
+
+/*Show navbar on large device*/
+@media all and (min-width:992px){
+    /*header*/
+    .menu ul{
+        display: flex;
+    }
+}
