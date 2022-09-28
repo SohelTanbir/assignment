@@ -177,6 +177,9 @@ ul{
     background-size: cover;
     background-position: center center;
 }
+#banner .row{
+    flex-wrap: nowrap;
+}
 .banner-left{
     width: 50%;
 }

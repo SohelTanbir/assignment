@@ -37,6 +37,14 @@
     .bars-icon{
         display:block
     }
+
+    /*Banner*/
+    .banner-right {
+        margin-left: 10rem;
+    }
+    .banner-left h1 {
+        font-size: 5rem;
+    }
 }
 /*medium  Device*/
 @media all and (max-width:870px){
@@ -44,17 +52,71 @@
     .menu ul li {
         margin-left: 2rem;
     }
+
+    /*Banner*/
+    .banner-left h1 {
+        font-size: 6rem;
+    }
+    #banner .row{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .banner-left{
+        width: 100%;
+    }
+    .banner-left h6 {
+        padding-bottom: 6rem;
+    }
+    .banner-left .apply-btn {
+        display: block;
+        margin: auto;
+    }
 }
 /*medium Device*/
 @media all and (max-width:768px){
-
+        /*Banner*/
+        .banner-left h1 {
+            padding-right: 5rem;
+        }
+        .banner-right {
+            margin-left: 0;
+        }
+        .text-content h2 {
+            font-size: 4rem;
+        }
 }
 /*small Device*/
 @media all and (max-width:576px){
-
+    /*banner*/
+    .banner-left h1 {
+        font-size: 5rem;
+        line-height: 7rem;
+        padding-right:0;
+    }
+    #banner {
+        padding: 5rem 0 2.4rem;
+    }
+    .banner-left h6 {
+        padding-bottom: 3rem;
+    }
+    .banner-left p {
+        padding-right: 0;
+    }
+    .banner-right {
+        padding-top: 8rem;
+    }
+    .text-content h2 {
+        font-size: 3.5rem;
+    }
 }
 /*Extra small Device*/
-@media all and (max-width:380px){
+@media all and (max-width:400px){
+    /*banner*/
+    .banner-left h1 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
 
 }
 
